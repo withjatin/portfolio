@@ -82,7 +82,7 @@ export default function GetInTouch() {
                 LinkedIn
               </a>
               <a
-                href="https://x.com/thejatinsingh"
+                href="https://x.com/BrainOnMarkets"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 sm:px-5 py-2 rounded-full border border-background/20 text-xs sm:text-sm font-medium hover:bg-background hover:text-foreground hover:scale-105 transition-all shadow-sm"

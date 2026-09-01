@@ -77,7 +77,7 @@ export default function Resume() {
             </div>
 
             <Button 
-              href="https://drive.google.com/file/d/15ruWEVd-ZJVUdC4ltns9I_Y-P6n5DL3C/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1pDzAutBt-tmVMbohR5avFyt5OyiyUXo3/view?usp=sharing" 
               variant="primary" 
               icon="arrow-down"
               className="w-full sm:w-auto"
