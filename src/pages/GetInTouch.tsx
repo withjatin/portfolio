@@ -123,7 +123,7 @@ export default function GetInTouch() {
         {/* Bottom copyright line inside frame */}
         <div className="w-full max-w-6xl mx-auto pt-3 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center text-xs text-background/40 gap-1.5 relative z-10">
           <p>© {new Date().getFullYear()} Jatin Singh. All rights reserved.</p>
-          <p className="text-accent/80 font-medium">
+          <p className="text-black font-semibold tracking-wide">
             Equity Research & Capital Markets
           </p>
         </div>

@@ -45,18 +45,18 @@ export default function Resume() {
               </span>
             </div>
 
-            {/* Quick Contact Bar */}
-            <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-4 md:gap-6 text-xs sm:text-sm text-background/80 mb-6 sm:mb-8 max-w-2xl mx-auto">
+            {/* Quick Contact Bar - Single line sequence */}
+            <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-2 sm:gap-3 md:gap-3.5 lg:gap-4 text-xs sm:text-sm text-background/85 mb-6 sm:mb-8 max-w-4xl mx-auto px-2">
               <a 
                 href="tel:+918198831306" 
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-background/10 hover:bg-background/20 hover:text-accent transition-colors"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-background/10 hover:bg-background/20 hover:text-accent transition-colors whitespace-nowrap shrink-0"
               >
                 <Phone size={14} />
                 <span>+91 81988 31306</span>
               </a>
               <a 
                 href="mailto:speaktojatinsingh@gmail.com" 
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-background/10 hover:bg-background/20 hover:text-accent transition-colors"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-background/10 hover:bg-background/20 hover:text-accent transition-colors whitespace-nowrap shrink-0"
               >
                 <Mail size={14} />
                 <span>speaktojatinsingh@gmail.com</span>
@@ -65,12 +65,12 @@ export default function Resume() {
                 href="https://linkedin.com/in/thejatinsingh" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-background/10 hover:bg-background/20 hover:text-accent transition-colors"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-background/10 hover:bg-background/20 hover:text-accent transition-colors whitespace-nowrap shrink-0"
               >
                 <Linkedin size={14} />
                 <span>in/thejatinsingh</span>
               </a>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-background/10 text-background/70">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-background/10 text-background/70 whitespace-nowrap shrink-0">
                 <MapPin size={14} />
                 <span>Amritsar, Punjab</span>
               </span>
