@@ -1,6 +1,6 @@
 {
-  "name": "Jatin Singh Portfolio",
-  "description": "Premium Animated Multi-Page Personal Portfolio Website for Jatin Singh, a Finance Professional.",
+  "name": "Jatin Portfolio",
+  "description": "Portfolio of Jatin Singh, a finance professional specializing in equity research, valuation, capital markets, financial modeling, and investment analysis.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
