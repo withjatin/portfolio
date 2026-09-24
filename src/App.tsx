@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { AnimatePresence } from "motion/react";
 import Home from "./pages/Home";
@@ -35,6 +35,7 @@ function AnimatedRoutes() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/get-in-touch" element={<GetInTouch />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </AnimatePresence>
   );
