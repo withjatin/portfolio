@@ -11,6 +11,10 @@ const CATEGORIES = [
     type: "dropdown" as const,
     projects: [
       {
+        title: "Eternal Research Report",
+        url: "https://drive.google.com/file/d/18SfcFdvE9pMR7AT6mKFvUUmcj5MwbrkW/view?usp=drivesdk"
+      },
+      {
         title: "Westlife: Initiating Coverage",
         url: "https://www.linkedin.com/posts/thejatinsingh_westlifeicrjatinsingh-activity-7497519079759720448-dlwS?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADe-sJoBGMC7p29G_a1DC_DCu8GaBNYYJOI"
       },
@@ -32,6 +36,10 @@ const CATEGORIES = [
     name: "Research Work",
     type: "dropdown" as const,
     projects: [
+      {
+        title: "Eternal Research Report",
+        url: "https://drive.google.com/file/d/18SfcFdvE9pMR7AT6mKFvUUmcj5MwbrkW/view?usp=drivesdk"
+      },
       {
         title: "Q1 FY26 Review: Westlife",
         url: "https://www.linkedin.com/feed/update/urn:li:activity:7488964927630508032/?originTrackingId=QCAGs4lBSYK7nNOyYO%2BVmw%3D%3D"
